@@ -1,4 +1,3 @@
-<%@ page import="java.util.Arrays" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
@@ -32,7 +31,7 @@
 <p><strong>이메일:</strong> <%= email %></p>
 <p><strong>주소:</strong> <%= address %></p>
 
-<p><strong>취미:</strong> <%= Arrays.toString(hobbies) %></p>
+<p><strong>취미:</strong> <%= hobbies %></p>
 
 <p><strong>좋아하는 색상:</strong> <%= color %></p>
 <p><strong>좋아하는 자동차 브랜드:</strong> <%= car %></p>
