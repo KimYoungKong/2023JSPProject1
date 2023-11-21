@@ -9,6 +9,6 @@
 
 <%
 	BoardDAO boardDAO = new BoardDAO();
-	int i=boardDAO.updateBoard(u);
+	int i=boardDAO.updatePost(u);
 	response.sendRedirect("posts.jsp");
 %>

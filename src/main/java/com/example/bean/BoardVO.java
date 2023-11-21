@@ -9,7 +9,8 @@ public class BoardVO {
 	private String content;
 	private Date regdate;
 	private int cnt;
-	
+	private String category; // 추가된 필드
+	private Date modifiedDate; // 추가된 필드
 	public int getSeq() {
 		return seq;
 	}
@@ -45,5 +46,21 @@ public class BoardVO {
 	}
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public Date getModifiedDate() {
+		return modifiedDate;
+	}
+
+	public void setModifiedDate(Date modifiedDate) {
+		this.modifiedDate = modifiedDate;
 	}
 }

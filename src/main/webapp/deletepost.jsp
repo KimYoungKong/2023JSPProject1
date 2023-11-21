@@ -8,7 +8,7 @@
 		BoardVO u = new BoardVO();
 		u.setSeq(id);
 		BoardDAO boardDAO = new BoardDAO();
-		boardDAO.deleteBoard(u);
+		boardDAO.deletePost(u);
 	}
 	response.sendRedirect("posts.jsp");
 %>
